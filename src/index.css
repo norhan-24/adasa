@@ -1,0 +1,75 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Cairo", sans-serif;
+  background-color: #0a0a0a;
+  color: white;
+  min-width: 320px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+.footer-social a:nth-child(1) {
+  --social-color: #ff0033;
+}
+
+
+.footer-social a:nth-child(2) {
+  --social-color: #0a66c2;
+}
+
+.footer-social a:nth-child(3) {
+  --social-color: #24292f;
+}
+
+
+.footer-social a:nth-child(4) {
+  --social-color: #000000;
+}
+
+.about-author-social span:nth-child(1) {
+  --social-color: #000000;
+}
+
+
+.about-author-social span:nth-child(2) {
+  --social-color: #24292f;
+}
+
+.about-author-social span:nth-child(3) {
+  --social-color: #0a66c2;
+}
+
+
+.footer-social a:hover:nth-child(n),
+.about-author-social span:hover:nth-child(n) {
+  background-color: var(--social-color);
+  border-color: var(--social-color);
+  color: #ffffff;
+
+  transform: translateY(-4px);
+
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.35);
+}
